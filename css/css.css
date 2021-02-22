@@ -17,7 +17,6 @@ header{
     margin: auto;
     margin-top: 1em;
 
-    
     display: flex;
     flex-direction: row;
     justify-content:space-between;
@@ -49,6 +48,9 @@ header{
 .nav li{
     font-size: 1.5em;
     color: #3F3F3F;
+}
+.nav li a{
+    text-decoration: none;   
 }
 .nav li img{
     width: 0.6em;
