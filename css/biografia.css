@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: none;
+}
+.titulo_biografia{
+    text-align: center;
+    font-size: 3em;
+}
+.descripcion_biografia{
+    font-size: 1.5em;
+    text-align: justify-all;
+    margin-top: 2em;
+}

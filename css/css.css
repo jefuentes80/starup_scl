@@ -1,74 +1,106 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Comfortaa', cursive;
-    text-decoration: none;
+    font-family: 'Varela Round', sans-serif;
 }
-
-header{
-    font-size: 10px;/* TAMAÑO BASE*/
+body{
+    font-size: 10px;
+}
+section{
     width: 100%;
-    height: 4em;
-    background-color: #fff;
-    border-bottom: 1px solid #DADADA;
+    height: auto;
 }
-.header_center{
-    max-width: 1000px;
+.section{
+    width: 1300px;
+    height: auto;
     margin: auto;
-    margin-top: 1em;
-
+    margin-top: 2em;
+    
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-evenly;
 }
 
-.seccion_izquierda{
+/*----- Izquierda*/
+.perfil_izquieda{
+    width: 300px;
+    height: 600px;
+}
+.perfil_izquieda img{
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 3px;
+    
+    -webkit-box-shadow: 2px 2px 3px 0px rgba(36,36,36,1);
+    -moz-box-shadow: 2px 2px 3px 0px rgba(36,36,36,1);
+    box-shadow: 2px 2px 3px 0px rgba(36,36,36,1);
+}
+.nombreUsuario{
+    font-size: 30px;
+    text-align: start;
+    margin-top: 20px;
+}
+.alias{
+    display: block;
+    font-size: 20px;
+    text-align: start;
+}
+/*----- Derecha*/
+.perfil_derecha{
+    width: 900px;
+    height: 600px;
+}
+.cajaBotones{
+    width: 100%;
+    height: auto;
+}
+.nav-perfil{
+    list-style: none;
+    margin-top: 30px;
+    
     display: flex;
     flex-direction: row;
 }
-.lupa_img{
-    width: 3em;
+.nav-perfil li{
+    margin-right: 0px;
+    font-size: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-bottom: 2px solid #fff;
 }
-.logo_scl{
-    width: 7em;
-    height: 3em;
-    margin-left: 2em;
+.nav-perfil li:hover{
+    border-bottom: 2px solid blue;
+    transition: 0.3s;
+}
+
+
+.Cont_proyectos{
+    display: none;
+    min-height: 600px;
+    height: auto;
+    margin-top: 20px;
+    overflow: hidden;
+    transition: 1s;
+    background-color: #F9F9F9;
+}
+
+.Cont_Biografia{
+    display: none;
+    min-height: 600px;
+    height: auto;
+    margin-top: 20px;
+    overflow: hidden;
+    transition: 1s;
+    background-color: #F9F9F9;
+}
+
+.activarCaja{
     display: block;
 }
-/*-------------------*/
-.nav{
-    width: 22em;
-    display: flex;
-    margin-left: 5em;
-    margin-top: 1em;
-    flex-direction: row;
-    list-style: none;
-    justify-content: space-between;
-}
-.nav li{
-    font-size: 1.5em;
-    color: #3F3F3F;
-}
-.nav li a{
-    text-decoration: none;   
-}
-.nav li img{
-    width: 0.6em;
-}
-/*-------------------------*/
-.ico_redes{
-    display: flex;
-    justify-content: space-between;
-    width: 10em;
-    margin-top: 1em;
-}
-.ico_redes img{
-    width: 1.8em;
-    height: 1.8em;
-}
 
 
-
-
-
-
+.listado{
+    font-size: 3em;
+}
