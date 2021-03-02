@@ -9,13 +9,11 @@ body{
 section{
     width: 100%;
     height: auto;
-    padding-top: 5em;
 }
 .section{
     width: 1300px;
     height: auto;
     margin: auto;
-    margin-top: 2em;
     
     display: flex;
     flex-direction: row;
