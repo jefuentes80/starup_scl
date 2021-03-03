@@ -12,7 +12,7 @@ section{
 }
 
 .section{
-    width: 1300px;
+    width: 130em;
     height: auto;
     margin: auto;
     
@@ -20,3 +20,38 @@ section{
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+/****************************************
+#       CONFIGURACION RESPONSIVE        *
+****************************************/
+
+@media only screen and (max-width:1440px) {
+
+    body{
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width:1366px) {
+    body{
+        font-size: 7px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    body{
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    body{
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+}
+
+@media only screen and (max-width:320px) {}

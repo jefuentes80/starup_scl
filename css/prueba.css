@@ -27,19 +27,6 @@
 
 
 
-
-
-
-
-
-*{
-    margin:0px;
-    padding:0px;
-    box-sizing:border-box;
-}
-body{
-    font-size: 10px;
-}
 header{
     width: 100%;
     height: auto;
