@@ -21,7 +21,7 @@
     text-align: center;
 }
 .caja_grados li a:hover{
-    background-color: naranja;
+    background-color: orange;
     transition: 0.3s;
 }
 .caja_grados li a span{
