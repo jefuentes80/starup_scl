@@ -4,6 +4,10 @@
     font-family: 'Varela Round', sans-serif;
     text-decoration: none;
 }
+
+.Cont_Biografia{
+    padding: 1em;
+}
 .titulo_biografia{
     text-align: center;
     font-size: 3em;
