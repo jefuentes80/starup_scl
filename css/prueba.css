@@ -42,6 +42,100 @@
     font-family: 'Raleway', sans-serif;
 }
 
+/-------------------------------------/
+
+.seccion1 {
+    margin: auto;
+    width: 130em;
+    height: 220em;
+    background-color: white;
+    padding: 2.5em;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.bmessage {
+    width: 60em;
+    height: 15em;
+    margin: auto;
+    margin-top: 1.5em;
+    padding: 1.2em;
+    text-align: center;
+}
+
+.bmessage p {
+    font-size: 2em;
+}
+
+.bmessage span{
+    font-size: 1.5em;
+}
+
+.secciones {
+    width: 100em;
+    height: 80em;
+    margin: auto;
+    margin-top: 2em;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.temas {
+    width: 30em;
+    height: 4.5em;
+    border-bottom: 0.5em solid black;
+    padding: 1em;
+}
+
+.temas p{
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.bbox {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3em;
+    margin: auto;
+}
+
+.lbox {
+    width: 20em;
+    height: 20em;
+    margin: 4em;
+    margin-bottom: 10em;
+    background-color: white;
+}
+.image {
+    width:20em;
+}
+
+.image img {
+    width:20em;
+}
+
+.texto{
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 20em;
+    height:10em;
+}
+
+.texto p {
+    font-size: 1.5em;
+    color: black;
+    text-align: center;
+}
+
+.lbox :hover{
+    opacity: 80%;
+    transition: 1s;
+}
+
+
+
 
 
 
