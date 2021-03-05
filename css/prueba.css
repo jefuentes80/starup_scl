@@ -11,16 +11,16 @@
 
 @keyframes caratula{
     0%, 20%{
-        background-image: url(../img/FODNO_2.png)
+        background-image: url(../img/trabajando/1-min.jpg)
     }
     25%, 45%{
-        background-image: url(../img/FONDO_4.png)
+        background-image: url(../img/trabajando/2-min.jpg)
     }
     50%, 70%{
-        background-image: url(../img/FONDO_hd.png)
+        background-image: url(../img/trabajando/3-min.jpg)
     }
     75%, 100%{
-        background-image: url(../img/FONDOS_3.png)
+        background-image: url(../img/trabajando/4-min.jpg)
     }
     
 }
