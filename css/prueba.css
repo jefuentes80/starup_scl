@@ -42,10 +42,12 @@
     color: #ffffff;
     margin-top: 4em;
     margin-left: 1em;
+    font-family: 'Raleway', sans-serif;
 }
 
 .big {
     font-size: 1.5em;
+    font-family: 'Raleway', sans-serif;
 }
 
 /*-------------------------------------*/
