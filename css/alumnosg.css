@@ -47,8 +47,78 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.AndersonNavas{
+.AnderssonNavas{
     background-image: url(../iv_computacion/img/foto_perfil/Andersson_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.CrisMiranda{
+    background-image: url(../iv_computacion/img/foto_perfil/CristopherMiranda.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ErvinNatareno{
+    background-image: url(../iv_computacion/img/foto_perfil/ErvinNatareno.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.GenesisSubuyuj{
+    background-image: url(../iv_computacion/img/foto_perfil/GenesisSubuyuj.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.GerardoAlvarez{
+    background-image: url(../iv_computacion/img/foto_perfil/Gerardo_ogj.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.JoseMazariegos{
+    background-image: url(../iv_computacion/img/foto_perfil/fotojose.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.JuanBarco{
+    background-image: url(../iv_computacion/img/foto_perfil/JuanBarco.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.KeresS{
+    background-image: url(../iv_computacion/img/foto_perfil/SophiaV.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.MariaMejia{
+    background-image: url(../iv_computacion/img/foto_perfil/maria.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.MarlonMartinez{
+    background-image: url(../iv_computacion/img/foto_perfil/marlonmartinez.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.RenatoLopez{
+    background-image: url(../iv_computacion/img/foto_perfil/RenatoLopez.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.RigoCastellanos{
+    background-image: url(../iv_computacion/img/foto_perfil/rigobertocastellanos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.RodrigoGusmas{
+    background-image: url(../iv_computacion/img/foto_perfil/RodrigoGuzman.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ValeriaEstrada{
+    background-image: url(../iv_computacion/img/foto_perfil/valerie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.YasminAntonio{
+    background-image: url(../iv_computacion/img/foto_perfil/imgyasminn.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
