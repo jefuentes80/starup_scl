@@ -4,25 +4,31 @@
     font-family: 'Varela Round', sans-serif;
 }
 
-body{
+section{
     width: 100%;
-    height: 30em;
-    background-image: url(../img/composicion-moderna-lugar-trabajo-sobre-fondo-gris-espacio-copia_23-2148404550.jpg);
+    height: 60em;
+    background-image: url(../img/escritorio-blanco-laptop-notebook-otros-suministros-trabajo-taza-cafe-vista-superior-espacio-copia-plano_164138-51.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
 }
-section{
-    background-color: aqua;
+
+.listado{
+    margin-top: 20em;
 }
-
-
 .listado li{
     width: 7em;
     height: 7em;
     background-color: aquamarine;
     margin-top: 1em;
-    margin-right: 1em;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
     display: inline-block;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.listado a{
+    font-size: 0.5em;
+    float: right;
+    margin-top: 10em;
 }
