@@ -1,7 +1,7 @@
-.caratula{
+.fondoBanner{
     width: 130em;
     height: 65em;
-    animation: caratula 10s infinite linear alternate;
+    animation: fondoBanner 10s infinite linear alternate;
     background-size: cover;
     position: relative;
     display: flex;
@@ -9,18 +9,22 @@
     align-items: center;
 }
 
-@keyframes caratula{
+/*codigo para animar las imagnes*/
+
+
+
+@keyframes fondoBanner{
     0%, 20%{
-        background-image: url(../img/trabajando/1-min.jpg)
+        background-image: url(../img/FODNO_2.png)
     }
     25%, 45%{
-        background-image: url(../img/trabajando/2-min.jpg)
+        background-image: url(../img/FONDO_4.png)
     }
     50%, 70%{
-        background-image: url(../img/trabajando/3-min.jpg)
+        background-image: url(../img/FONDO_hd.png)
     }
     75%, 100%{
-        background-image: url(../img/trabajando/4-min.jpg)
+        background-image: url(../img/FONDOS_3.png)
     }
     
 }
