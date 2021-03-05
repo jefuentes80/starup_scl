@@ -43,3 +43,13 @@ section{
     background-color: #E9B53D;
     transition: 0.8s;
 }
+.BrandonGomez{
+    background-image: url(../iv_computacion/img/foto_perfil/yoxd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.AndersonNavas{
+    background-image: url(../iv_computacion/img/foto_perfil/Andersson_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
