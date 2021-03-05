@@ -71,10 +71,12 @@
 
 .bmessage p {
     font-size: 2em;
+    font-family: 'Raleway', sans-serif;
 }
 
 .bmessage span{
     font-size: 1.5em;
+    font-family: 'Raleway', sans-serif;
 }
 
 .secciones {
@@ -97,6 +99,7 @@
 .temas p{
     font-size: 2.5em;
     text-align: center;
+    font-family: 'Raleway', sans-serif;
 }
 
 .bbox {
@@ -133,6 +136,7 @@
     font-size: 1.5em;
     color: black;
     text-align: center;
+    font-family: 'Raleway', sans-serif;
 }
 
 .lbox :hover{
