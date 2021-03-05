@@ -29,20 +29,26 @@
     
 }
 
+.caratula {
+    width: 130em;
+    height: 65em;
+    margin: auto;
+    padding: 5em;
+    
+}
+
 .banner {
     font-size: 4em;
-    color: #ffffff;
+    color: black;
     margin-top: 4em;
     margin-left: 1em;
-    font-family: 'Raleway', sans-serif;
 }
 
 .big {
     font-size: 1.5em;
-    font-family: 'Raleway', sans-serif;
 }
 
-/-------------------------------------/
+/*-------------------------------------*/
 
 .seccion1 {
     margin: auto;
