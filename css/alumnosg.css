@@ -22,7 +22,7 @@ section{
 .listado li{
     width: 7em;
     height: 7em;
-    background-color: #6690F9;
+    background-color: #ffffff;
     margin-top: 1em;
     margin-right: 0.5em;
     margin-left: 0.7em;
@@ -32,14 +32,14 @@ section{
     float:left;
 }
 
-.listado a{
+.listado li a{
     font-size: 0.8em;
-    margin-top: 5em;
+    
     color: aliceblue;
 }
 
-.listado li:hover{
-    background-color: #E9B53D;
+.listado li a:hover{
+    color: lightskyblue;
     transition: 0.8s;
 }
 .BrandonGomez{
