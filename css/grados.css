@@ -6,22 +6,70 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-top: 7em;
 }
+/*________________DISEÑO DE GRADOS PESTAÑA_____________________*/
+
 .caja_grados li{
-    width: 30em;
-    height: 15em;
-    background-color: royalblue;
+    width: 22em;
+    height: 40em;
+    background-color: cadetblue;
+    border-radius: 3px;
+    margin: 5em 1.25em;
+    margin: auto;
+}
+
+.diseno_iv{
+    width: 22em;
+    height: 40em;
+    background-image: url(../img/img_grados_p/diseno_iv_2-min.png);
     border-radius: 3px;
     margin: 5em 1.25em;
 }
+
+.compu_iv{
+    width: 22em;
+    height: 40em;
+    background-image: url(../img/img_grados_p/compu_iv_3-min.png);
+    border-radius: 3px;
+    margin: 5em 1.25em;
+}
+
+.diseno_v{
+    width: 22em;
+    height: 40em;
+    background-image: url(../img/img_grados_p/diseno_v_4-min.png);
+    border-radius: 3px;
+    margin: 5em 1.25em;
+}
+
+.compu_v{
+    width: 22em;
+    height: 40em;
+    background-image: url(../img/img_grados_p/compu_v_1-min.png);
+    border-radius: 3px;
+    margin: 5em 1.25em;
+}
+
+.bio_v{
+    width: 22em;
+    height: 40em;
+    background-image: url(../img/img_grados_p/bio_v_5-min.png);
+    border-radius: 3px;
+    margin: 5em 1.25em;
+}
+
+/*____________________________________________*/
+
 .caja_grados li a{
     display: block;
     width: 100%;
     height: 100%;
     text-align: center;
+    text-decoration: none;
 }
 .caja_grados li a:hover{
-    background-color: orange;
+    background-color: rgba(50, 50, 50, 0.7);
     transition: 0.3s;
 }
 .caja_grados li a span{
@@ -31,3 +79,4 @@
     color: #fff;
     font-size: 1.8em;
 }
+
