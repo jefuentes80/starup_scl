@@ -16,6 +16,8 @@ header{
     width: 8em;
     height: 4em;
     margin-top: 1em;
+    cursor: pointer;
+ 
 }
 
 nav{    
