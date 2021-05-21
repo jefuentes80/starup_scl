@@ -79,13 +79,13 @@
     color: #fff;
     font-size: 1.8em;
 }
+
+/*-------------------------------*/
 .cajagrande{
   margin: auto;
    width: 1000px;
-position: relative;
+position: absolute;
 }
-
-/*-------------------------------*/
 .sec1{
     margin: auto;
     float:left;
