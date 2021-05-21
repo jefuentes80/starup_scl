@@ -81,48 +81,5 @@
 }
 
 /*-------------------------------*/
-.cajagrande{
-  margin: auto;
-   width: 1000px;
-position: absolute;
-}
-.sec1{
-    margin: auto;
-    float:left;
-    height: auto;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;  
-   
-}
-.sec1 div{
-    margin: auto;
-    border-bottom: 0.1em solid #0cc4c4;
-    margin: 10px;
-    font-size: 35px; 
-    text-align: center;
-text-align: justify;
-}
-h1{
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 1em;
-    font-size: 4em;
-}
 
-h2{
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 0.5em;
-    color: #000;
-    font-size: 3em;
-}
-
-h3{
-    text-align: center;
-    margin-bottom: 2em;
-text-align: justify;
-   
-}
 
