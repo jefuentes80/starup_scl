@@ -4,25 +4,164 @@
     font-family: 'Varela Round', sans-serif;
 }
 body{
-    height: 150em;
+    height: auto;
 }
-section{
+
+.vdesign{
     width: 100%;
-    height: 60em;
-    background-image: url(../iv_computacion/img/bannerivcompu.jpg);
+    height: 68.6em;
+    background-image: url(../img/bannersgrados/Dise%C3%B1o.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
+    background-position: top;
+    background-attachment: fixed;  
+}
+
+.vdesign .info{
+    background-color: rgba(71,51, 51, 0.4);
+    width: 100%;
+    height: 68.6em;
+    color: white;
+    text-align: center;
+    padding: 27em 4em;
+    box-sizing: border-box;
+    text-shadow: 0px 0.5px 2.5px #404040;
+}
+.vdesign .info h1{
+    font-size: 7.5em;
+}
+.vdesign .info p{
+    font-size: 3em;
+}
+
+.ivdesign{
+    width: 100%;
+    height: 68.6em;
+    background-image: url(../img/bannersgrados/ux-788002_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: bottom;
+    background-attachment: fixed;  
+}
+
+.ivdesign .info{
+    background-color: rgba(71,51, 51, 0.3);
+    width: 100%;
+    height: 68.6em;
+    color: white;
+    text-align: center;
+    padding: 27em 4em;
+    box-sizing: border-box;
+    text-shadow: 0px 0.5px 2.5px #404040;
+}
+.ivdesign .info h1{
+    font-size: 7.5em;
+}
+.ivdesign .info p{
+    font-size: 3em;
+}
+
+.vcompu{
+    width: 100%;
+    height: 68.6em;
+    background-image: url(../img/bannersgrados/business-2717063_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: top;
+    background-attachment: fixed;  
+}
+
+.vcompu .info{
+    background-color: rgba(71,51, 51, 0.3);
+    width: 100%;
+    height: 68.6em;
+    color: white;
+    text-align: center;
+    padding: 27em 4em;
+    box-sizing: border-box;
+    text-shadow: 0px 0.5px 2.5px #404040;
+}
+.vcompu .info h1{
+    font-size: 7.5em;
+}
+.vcompu .info p{
+    font-size: 3em;
+}
+
+.ivcompu{
+    width: 100%;
+    height: 68.6em;
+    background-image: url(../img/bannersgrados/compu-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: top;
+    background-attachment: fixed;  
+}
+
+.ivcompu .info{
+    background-color: rgba(71,51, 51, 0.3);
+    width: 100%;
+    height: 68.6em;
+    color: white;
+    text-align: center;
+    padding: 27em 4em;
+    box-sizing: border-box;
+    text-shadow: 0px 0.5px 2.5px #404040;
+}
+.ivcompu .info h1{
+    font-size: 7.5em;
+}
+.ivcompu .info p{
+    font-size: 3em;
+}
+
+.vbiologicas{
+    width: 100%;
+    height: 68.6em;
+    background-image: url(../img/bannersgrados/biolog%C3%ADa%20-1-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: top;
+    background-attachment: fixed;  
+}
+
+.vbiologicas .info{
+    background-color: rgba(71,51, 51, 0.3);
+    width: 100%;
+    height: 68.6em;
+    color: white;
+    text-align: center;
+    padding: 27em 4em;
+    box-sizing: border-box;
+    text-shadow: 0px 0.5px 2.5px #404040;
+}
+.vbiologicas .info h1{
+    font-size: 7.5em;
+}
+.vbiologicas .info p{
+    font-size: 3em;
+}
+
+.texto{
+    width: 20em;
+    height: 2.3em;
+    margin-top: 1em;
+    border-bottom: 0.2em solid black;
+    text-align: left;
 }
 
 .listado{
-    margin-top: 20em;
     text-align: center;
-    
+    background-color: #f6f6f6;
+    box-sizing: border-box;
+    padding-bottom: 1.5em;
+    padding-left: .9em;
+    padding-top: .5em;
 }
+
 .listado li{
     width: 7em;
     height: 7em;
-    background-color: #4680EC;
     margin-top: 1em;
     margin-right: 0.5em;
     margin-left: 0.7em;
@@ -30,18 +169,61 @@ section{
     flex-direction: row;
     justify-content: space-between;
     float:left;
+    border-radius: 8px;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, .3);
 }
 
-.listado li a{
+.listado li:hover{
+    transform:scale(1.08);
+    transition: .5s;
+}
+
+.caja1{
+    width: 100%;
+    height: 100%;
+    padding-top: 2.85em;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.listado li:hover .caja1{
+    background-image: url(../img/img_grados_p/imghover.png);
+}
+
+.caja{
+    width: 100%;
+    height: 2em;
+    visibility: hidden;
+}
+
+.listado h3{
+    color: #fff;
+    visibility: hidden;
     font-size: 0.8em;
-    
-    color: aliceblue;
+    line-height: 1em;
 }
 
-.listado li a:hover{
-    color: lightskyblue;
-    transition: 0.8s;
+.listado p{
+    color: #fff;
+    visibility: hidden;
+    font-size: 0.5em;
 }
+
+.listado li:hover h3{
+    visibility: visible;
+}
+
+.listado li:hover p{
+    visibility: visible;
+}
+
+.listado li:hover .caja{
+    visibility: visible;
+    transition: 2s;
+}
+
+/*----------------------------IMG IV COMPU------------------------------------*/
 .BrandonGomez{
     background-image: url(../iv_computacion/img/foto_perfil/yoxd.jpg);
     background-repeat: no-repeat;
@@ -107,7 +289,7 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.RodrigoGusmas{
+.RodrigoGuzman{
     background-image: url(../iv_computacion/img/foto_perfil/RodrigoGuzman.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -119,6 +301,201 @@ section{
 }
 .YasminAntonio{
     background-image: url(../iv_computacion/img/foto_perfil/imgyasminn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*----------------------------IMG V DISEÑO------------------------------------*/
+.Diego{
+    background-image: url(../img/trabajando/2-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.JoseMejia{
+    background-image: url(../v_design/img/foto_perfil/fotojp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.KeiryAnai{
+    background-image: url(../v_design/img/foto_perfil/Lotus_h2-min.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.NatalieZamora{
+    background-image: url(../v_design/img/foto_perfil/pp.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.RafaeldeLeon{
+    background-image: url(../v_design/img/foto_perfil/fotogris.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.KatherineAlvarado{
+    background-image: url(../v_design/img/foto_perfil/FotoperfilKatherine.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.Perfil{
+    background-image: url(../img/trabajando/2-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.FernandoLuch{
+    background-image: url(../v_design/img/foto_perfil/LUCH.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.SusanRamos{
+    background-image: url(../v_design/img/foto_perfil/fotoo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.GabrielaXajil{
+    background-image: url(../v_design/img/foto_perfil/gabs_fotoperfil.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*-------------------------------------IMG IV DISEÑO---------------------------------------*/
+.AdrianaVelasquez{
+    background-image: url(../iv_design/img/foto_perfil/Adrianavelasquez.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.AlondraHerrera{
+    background-image: url(../iv_design/img/foto_perfil/fotodeperfil.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.DanielaMotta{
+    background-image: url(../iv_design/img/foto_perfil/dannymotta.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.DulceAntonio{
+    background-image: url(../iv_design/img/foto_perfil/dmantonio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.JorgeAguilar{
+    background-image: url(../iv_design/img/foto_perfil/JorgeAguilar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.KarenIcal{
+    background-image: url(../iv_design/img/foto_perfil/mifoto.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.MariaRene{
+    background-image: url(../iv_design/img/foto_perfil/foto_.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.SaraChacon{
+    background-image: url(../iv_design/img/foto_perfil/Sara.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.YasminGarcia{
+    background-image: url(../iv_design/img/foto_perfil/Yamna_Gp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.LusvinAdolfo{
+    background-image: url(../iv_design/img/foto_perfil/mi-foto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.AmyOrtega{
+    background-image: url(../iv_design/img/foto_perfil/Amy1919.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.HannahMijangos{
+    background-image: url(../iv_design/img/foto_perfil/chale.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.MarilisEscobar{
+    background-image: url(../iv_design/img/foto_perfil/Marilis.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.GabrielaSalaza{
+    background-image: url(../iv_design/img/foto_perfil/Gaby.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.IvanGalvez{
+    background-image: url(../iv_design/img/foto_perfil/Fperfil.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*-------------------------------------IMG V COMPU---------------------------------------*/
+.AndreaSique{
+    background-image: url(../v_computacion/img/foto_perfil/AndreaSique.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.DannyGarcias{
+    background-image: url(../img/trabajando/1-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.DeisiRuiz{
+    background-image: url(../v_computacion/img/foto_perfil/Deisi.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.DiegoAsturias{
+    background-image: url(../v_computacion/img/foto_perfil/perf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.DiegoOsorio{
+    background-image: url(../v_computacion/img/foto_perfil/Diego.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.JPMonroy{
+    background-image: url(../v_computacion/img/foto_perfil/jp.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.PabloFranco{
+    background-image: url(../v_computacion/img/foto_perfil/PabloFranco.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.FernandoCahuex{
+    background-image: url(../v_computacion/img/foto_perfil/perfil.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.PricilaMorales{
+    background-image: url(../v_computacion/img/foto_perfil/pricilaMorales.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.SaraGomez{
+    background-image: url(../v_computacion/img/foto_perfil/abigail.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.NataliadeLeon{
+    background-image: url(../v_computacion/img/foto_perfil/leon.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
