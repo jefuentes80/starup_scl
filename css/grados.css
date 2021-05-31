@@ -7,6 +7,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 7em;
+  font-family: 'Varela Round', sans-serif;
 }
 /*________________DISEÑO DE GRADOS PESTAÑA_____________________*/
 
@@ -86,7 +87,7 @@
 .cajagrande{
 padding: 2em;
   margin: auto;
-   width: 1000px;
+   width: 1200px;
 position: relative; 
 }
 
@@ -102,8 +103,8 @@ position: relative;
 }
 .sec1 div{
     margin: auto;
-    border-bottom: 0.2em solid #404040;
-    margin: 10px;
+    border-bottom: 0.2em solid #000;
+    margin: 1px;
     font-size: 40px; 
     width: 10em;
     text-align: center;
@@ -124,13 +125,13 @@ text-align: left;
     font-size: 3em;
 }
 
-h3{
+.texto{
     text-align: center;
     margin-bottom: 1em;
 text-align: justify;
- font-size: 2em;   
-}
+font-size: 15px;
 
+}
 
 
 
