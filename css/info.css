@@ -1,0 +1,108 @@
+.saludo{
+    color: #fff;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 65px;
+    cursor: pointer;
+    font-family:fantasy;
+}
+
+
+.nuevaClase{
+     color: #fff;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 35px;
+    color:#fff;
+    transition: 0.5s;
+    font-family: monospace;
+}
+
+/*----------------------------------------------------*/
+
+.saludo2{
+    color: #fff;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 45px;
+    cursor: pointer;
+    font-family: fantasy;
+}
+
+
+.nuevaClase{
+     color: #fff;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 35px;
+    color:#fff;
+    transition: 0.5s;
+    font-family: monospace;
+}
+
+/*-------------------------------------------------------------*/
+
+
+
+.info2{
+    color: #fff;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+
+.estilo_1{
+    border-radius: 5px;
+    width: 300px;
+    height: 350;
+    background-color: palevioletred;
+    margin: auto;
+    background-image: url(../img/trabajando/pexels-anni-roenkae-2860807.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.estilo_2{
+    border-radius: 5px;
+    width: 300px;
+    height: 50;
+    background-color: gold;
+    margin: auto;
+    transition: 0.5s;
+    background-image: url(../img/trabajando/pexels-anni-roenkae-2832382.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*---------------------------*/
+
+.ds_btn{
+    width: 100px;
+    height: 30px;
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 20px;
+    cursor: pointer;
+     background-image: url(../img/trabajando/pexels-anni-roenkae-2860807.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ds_btn1{
+    width: 100px;
+    height: 30px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 20px;
+    margin-left: 600px;
+    cursor: pointer;
+     background-image: url(../img/trabajando/pexels-anni-roenkae-2832382.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
