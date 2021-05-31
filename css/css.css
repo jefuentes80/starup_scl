@@ -21,6 +21,60 @@ section{
     justify-content: space-evenly;
 }
 
+footer {
+    width: 100%;
+    height: auto;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(200, 200, 200);
+    
+    -webkit-box-shadow: 2px 0px 0px 0px rgba(77,77,77,1);
+    -moz-box-shadow: 2px 0px 0px 0px rgba(77,77,77,1);
+    box-shadow: 2px 0px 0px 0px rgba(77,77,77,1);
+}
+
+.der, .iz {
+    width: 50em;
+    height: 20em;
+    padding: 1em;
+    margin:auto;
+}
+
+.der p, .iz p{
+    font-size: 1.5em;
+    margin: 0em 0em 0.5em 0em;
+}
+
+.cic {
+    display: flex;
+    flex-direction: row;
+}
+.ic, .icd {
+    padding: 1em;
+    margin: auto;
+    margin-bottom: 0.5em;
+    display: flex;
+    flex-direction: row;
+    border-radius: 1em 1em 0em 0em;
+}
+
+.ic span, .icd span {
+    color: black;
+    font-size: 2em;
+    margin: 0em 1em 2em 0em;
+}
+
+
+.ic span:hover {
+    color: blue;
+}
+
+.icd:hover {
+    background-color: cornflowerblue;
+    transition-duration: 0.5s;
+}
+
 /****************************************
 #       CONFIGURACION RESPONSIVE        *
 ****************************************/
