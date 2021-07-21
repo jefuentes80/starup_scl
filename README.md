@@ -4,6 +4,7 @@
   Esto portafolio trata de información de puntos HTML y css, este es un ejemplo de como agregar un parrafo al README.
 </p>
 
+<img src="https://juanbarco4.github.io/Glosario/IMG/Ejemplo_h1.png">
 
 <ul>
   <li>Esta es una cosa</li>
