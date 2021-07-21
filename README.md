@@ -14,3 +14,14 @@
   <li>Acá hay un  <a href="www.google.com"> link<a></li>
   <li></li>
 </ul>
+
+    
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell 
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
