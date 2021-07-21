@@ -5,6 +5,7 @@
 </p>
 
 <img src="https://juanbarco4.github.io/Glosario/IMG/Ejemplo_h1.png">
+![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)
 
 <ul>
   <li>Esta es una cosa</li>
