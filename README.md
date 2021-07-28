@@ -9,3 +9,5 @@ El portafolio esta construido en código **html** y **css **el cual es la respre
 1. Soporte para desktop
 2. soporte en responsi design
 3. Imagenes optimizadas
+
+<img src="https://i.imgur.com/wM4WXYX.jpg"/>
