@@ -1,19 +1,19 @@
 var titulo = document.getElementById('saludo');
 
-function cambiarcolor (){
-    
+function cambiarcolor() {
+
     titulo.classList.remove("saludo");
     titulo.classList.add("nuevaClase")
-} 
+}
 
-var caja_html= document.getElementById('caja');
+var caja_html = document.getElementById('caja');
 
 
-function funcionCaja (){
-    
+function funcionCaja() {
+
     caja_html.classList.remove("estilo_1");
     caja_html.classList.add("estilo_2");
-}; 
+};
 
 
 /*-------------------------------------------*/
@@ -24,4 +24,3 @@ btn_html.addEventListener('click', cambiarcolor);
 btn_html.addEventListener('click', funcionCaja);
 
 /*----------------------------------------------------------*/
-

@@ -14,13 +14,13 @@ index();
 
 
 btn_proyecto.addEventListener("click", function() {
-    caja_biografia.classList.add("activarCaja");
-    caja_proyectos.classList.remove("activarCaja");
+    caja_biografia.classList.remove("activarCaja");
+    caja_proyectos.classList.add("activarCaja");
 
 });
 
 btn_biografia.addEventListener("click", function() {
-    caja_proyectos.classList.add("activarCaja");
-    caja_biografia.classList.remove("activarCaja");
+    caja_proyectos.classList.remove("activarCaja");
+    caja_biografia.classList.add("activarCaja");
 
 });
