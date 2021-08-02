@@ -1,95 +1,99 @@
-
-.vista{
+.vista {
     width: 19em;
     height: 15em;
     border-radius: 5px;
-    background-color:grey;
+    background-color: rgb(255, 0, 0);
     float: left;
     margin: 2em 1.5em;
     transition: 0.3s;
-
-    -webkit-box-shadow: 0px 0px 2px 0px rgba(77,77,77,1);
-    -moz-box-shadow: 0px 0px 2px 0px rgba(77,77,77,1);
-    box-shadow: 0px 0px 2px 0px rgba(77,77,77,1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.vista:hover{
+
+.vista:hover {
     transition: 0.3s;
-    -webkit-box-shadow: 1px 1px 5px 0px rgba(38,104,237,1);
-    -moz-box-shadow: 1px 1px 5px 0px rgba(38,104,237,1);
-    box-shadow: 1px 1px 5px 0px rgba(38,104,237,1);
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(38, 104, 237, 1);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(38, 104, 237, 1);
+    box-shadow: 1px 1px 5px 0px rgba(38, 104, 237, 1);
 }
 
-.vista img{
+.vista img {
     border-radius: 5px;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.titulo_vista{
+
+.titulo_vista {
     text-align: center;
     font-size: 1.5em;
     color: #202020;
     background-color: #F0F0F0;
-
 }
 
+
 /*----- Izquierda*/
-.perfil_izquieda{
-    margin-top: 15em;
+
+.perfil_izquieda {
+    margin-top: 8em;
     width: 30em;
     height: 60em;
 }
-.perfil_izquieda img{
+
+.perfil_izquieda img {
     display: block;
     width: 100%;
     height: 30em;
     object-fit: cover;
     margin: auto;
     border-radius: 3px;
-    
-    -webkit-box-shadow: 2px 2px 3px 0px rgba(36,36,36,1);
-    -moz-box-shadow: 2px 2px 3px 0px rgba(36,36,36,1);
-    box-shadow: 2px 2px 3px 0px rgba(36,36,36,1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.nombreUsuario{
+
+.nombreUsuario {
     font-size: 3em;
     text-align: start;
     margin-top: 20px;
 }
-.alias{
+
+.alias {
     display: block;
     font-size: 2em;
     text-align: start;
 }
+
+
 /*----- Derecha*/
-.perfil_derecha{
-    margin-top: 10em;
+
+.perfil_derecha {
+    margin-top: 8em;
     width: 90em;
     height: 60em;
 }
-.cajaBotones{
+
+.cajaBotones {
     width: 100%;
     height: auto;
 }
-.nav-perfil{
+
+.nav-perfil {
     list-style: none;
-    
     display: flex;
     flex-direction: row;
 }
-.nav-perfil li{
+
+.nav-perfil li {
     font-size: 1.5em;
     padding: 0.5em 1em;
     cursor: pointer;
     border-bottom: 2px solid #fff;
 }
-.nav-perfil li:hover{
+
+.nav-perfil li:hover {
     border-bottom: 2px solid blue;
     transition: 0.3s;
 }
 
-
-.Cont_proyectos{
+.Cont_proyectos {
     display: none;
     min-height: 60em;
     height: auto;
@@ -99,7 +103,7 @@
     background-color: #F0F0F0;
 }
 
-.Cont_Biografia{
+.Cont_Biografia {
     display: none;
     min-height: 60em;
     height: auto;
@@ -109,11 +113,10 @@
     background-color: #F9F9F9;
 }
 
-.activarCaja{
+.activarCaja {
     display: block;
 }
 
-
-.listado{
+.listado {
     font-size: 3em;
 }

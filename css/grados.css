@@ -1,26 +1,27 @@
-.caja_grados{
+.caja_grados {
     list-style: none;
     width: 100%;
     height: auto;
-
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 7em;
-  font-family: 'Varela Round', sans-serif;
+    font-family: 'Varela Round', sans-serif;
 }
+
+
 /*________________DISEÑO DE GRADOS PESTAÑA_____________________*/
 
-.caja_grados li{
+.caja_grados li {
     width: 22em;
     height: 40em;
     background-color: cadetblue;
     border-radius: 3px;
     margin: 5em 1.25em;
-    margin: auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.diseno_iv{
+.diseno_iv {
     width: 22em;
     height: 40em;
     background-image: url(../img/img_grados_p/diseno_iv_2-min.png);
@@ -28,7 +29,7 @@
     margin: 5em 1.25em;
 }
 
-.compu_iv{
+.compu_iv {
     width: 22em;
     height: 40em;
     background-image: url(../img/img_grados_p/compu_iv_3-min.png);
@@ -36,7 +37,7 @@
     margin: 5em 1.25em;
 }
 
-.diseno_v{
+.diseno_v {
     width: 22em;
     height: 40em;
     background-image: url(../img/img_grados_p/diseno_v_4-min.png);
@@ -44,7 +45,7 @@
     margin: 5em 1.25em;
 }
 
-.compu_v{
+.compu_v {
     width: 22em;
     height: 40em;
     background-image: url(../img/img_grados_p/compu_v_1-min.png);
@@ -52,7 +53,7 @@
     margin: 5em 1.25em;
 }
 
-.bio_v{
+.bio_v {
     width: 22em;
     height: 40em;
     background-image: url(../img/img_grados_p/bio_v_5-min.png);
@@ -60,20 +61,23 @@
     margin: 5em 1.25em;
 }
 
+
 /*____________________________________________*/
 
-.caja_grados li a{
+.caja_grados li a {
     display: block;
     width: 100%;
     height: 100%;
     text-align: center;
     text-decoration: none;
 }
-.caja_grados li a:hover{
+
+.caja_grados li a:hover {
     background-color: rgba(50, 50, 50, 0.7);
     transition: 0.3s;
 }
-.caja_grados li a span{
+
+.caja_grados li a span {
     line-height: 8.5em;
     text-align: center;
     vertical-align: middle;
@@ -82,56 +86,54 @@
 }
 
 
-
 /*-------------------------------*/
-.cajagrande{
-padding: 2em;
-  margin: auto;
-   width: 1200px;
-position: relative; 
+
+.cajagrande {
+    padding: 2em;
+    margin: auto;
+    width: 1200px;
+    position: relative;
 }
 
-.sec1{
+.sec1 {
     margin: auto;
-    float:left;
+    float: left;
     height: auto;
     padding: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;  
-   background-color:#F5F5F5; 
+    justify-content: center;
+    background-color: #F5F5F5;
 }
-.sec1 div{
+
+.sec1 div {
     margin: auto;
     border-bottom: 0.2em solid #000;
     margin: 1px;
-    font-size: 40px; 
+    font-size: 40px;
     width: 10em;
     text-align: center;
-text-align: justify;
+    text-align: justify;
 }
-h1{
-color:#0cc4c4;
+
+h1 {
+    color: #0cc4c4;
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 1em;
     font-size: 5em;
 }
 
-h2{
-text-align: left;
+h2 {
+    text-align: left;
     margin: 0.2em;
     color: #000;
     font-size: 3em;
 }
 
-.texto{
+.texto {
     text-align: center;
     margin-bottom: 1em;
-text-align: justify;
-font-size: 15px;
-
+    text-align: justify;
+    font-size: 15px;
 }
-
-
-
