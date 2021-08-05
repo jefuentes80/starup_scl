@@ -304,6 +304,13 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.RicardoMor{
+    background-image: url(../iv_computacion/img/foto_perfil/ricardoMorales.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /*----------------------------IMG V DISEÑO------------------------------------*/
 .Diego{
     background-image: url(../img/trabajando/2-min.jpg);
