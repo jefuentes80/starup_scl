@@ -4,6 +4,7 @@
     height: auto;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 7em;
     font-family: 'Varela Round', sans-serif;

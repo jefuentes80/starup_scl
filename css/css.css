@@ -4,76 +4,8 @@
     font-family: 'Varela Round', sans-serif;
     box-sizing: border-box;
 }
-body{
+html{
     font-size: 10px;
-}
-section{
-    width: 100%;
-    height: auto;
-}
-
-.section{
-    width: 100%;
-    height: auto;
-    margin: auto;
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-footer {
-    width: 100%;
-    height: auto;
-    margin-top: 3em;
-    padding: 1em;
-    padding-top: 2em;
-    display: flex;
-    flex-direction: row;
-    background-color: rgba(250, 250, 250);
-    position: relative;
-}
-
-.der, .iz {
-    width: 50em;
-    height: 20em;
-    padding: 1em;
-    margin:auto;
-}
-
-.der p, .iz p{
-    font-size: 1.5em;
-    margin: 0em 0em 0.5em 0em;
-}
-
-.cic {
-    display: flex;
-    flex-direction: row;
-}
-.ic, .icd {
-    padding: 1em;
-    margin: auto;
-    margin-bottom: 0.5em;
-    display: flex;
-    flex-direction: row;
-    border-radius: 1em 1em 0em 0em;
-}
-
-.ic span, .icd span {
-    color: black;
-    font-size: 2em;
-    margin: 0em 1em 2em 0em;
-    background-color: none;
-}
-
-
-.ic span:hover {
-    color: blue;
-}
-
-.icd:hover {
-    background-color: rgba(200, 200, 200);
-    transition-duration: 0.5s;
 }
 
 /****************************************
@@ -111,47 +43,3 @@ footer {
 }
 
 @media only screen and (max-width:320px) {}
-
-.barra-social {
-    position: fixed;
-    right: 0;
-    top: 35%;
-    font-size: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    z-index: 100;
-}
-.icon {
-    color: white;
-    text-decoration: none;
-    padding: .7rem;
-    display: flex;
-    transition: all .5s;
-}
-
-.icon-facebook {
-    background: #2E406E;
-}
-
-.icon-instagram {
-    background: #3F60A5;
-}
-
-.icon-whatsapp {
-    background: #25D01A;
-}
-
-.icon:first-child {
-    border-radius: 1rem 0 0 0;
-}
-
-.icon:last-child {
-    border-radius: 0 0 0 1rem;
-}
-
-.icon:hover {
-    padding-right: 3rem;
-    border-radius: 1rem 0 0 1rem;
-    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
-}

@@ -1,6 +1,6 @@
 .fondoBanner {
     width: 100%;
-    height: 65em;
+    height: 40rem;
     animation: fondoBanner 10s infinite linear alternate;
     background-size: cover;
     display: flex;
@@ -8,7 +8,14 @@
     align-items: center;
     margin: auto;
 }
-
+.section{
+    max-width: 130rem;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 
 /*codigo para animar las imagnes*/
 
@@ -32,7 +39,7 @@
 }
 
 .caratula {
-    width: 130em;
+    max-width: 130em;
     height: 65em;
     margin: auto;
     padding: 5em;
@@ -149,70 +156,64 @@
     transition: 1s;
 }
 
-header {
-    width: 100%;
-    height: auto;
-    -webkit-box-shadow: 0px 0px 2px 0px rgba(77, 77, 77, 1);
-    -moz-box-shadow: 0px 0px 2px 0px rgba(77, 77, 77, 1);
-    box-shadow: 0px 0px 2px 0px rgba(77, 77, 77, 1);
-}
+/* SECCIÓN DEL NAVEGADOR */
 
-.margen {
-    width: 130em;
+header{
+
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(77,77,77,1);
+    -moz-box-shadow: 0px 0px 2px 0px rgba(77,77,77,1);
+    box-shadow: 0px 0px 2px 0px rgba(77,77,77,1);
+
+}
+.margen{
+    max-width: 130rem;
     height: 6em;
+    padding: 0 5rem;
     margin: auto;
-}
 
-.img_logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img_logo{
     width: 8em;
     height: 4em;
-    margin-top: 1em;
+    cursor: pointer;
 }
 
-nav {
-    width: auto;
-    height: auto;
-    margin-top: 1em;
-    float: right;
-}
-
-nav a {
+nav a{
     display: block;
     widows: 100%;
     height: 100%;
-    text-decoration: none;
-    color: inherit;
-    font-size: 1.4em;
+    text-decoration:none;
+    color:inherit;
+    font-size:1.4em;
     padding-top: 0.8em;
-}
-
-nav li {
-    width: 13em;
-    height: 4em;
-    display: inline-block;
-    text-align: center;
-    color: black;
-    position: relative;
-    transition-duration: 0.5s;
-}
-
-nav li:hover {
-    color: black;
+}            
+nav li{
+    width:13em;
+    height:4em;
+    display:inline-block;
+    text-align:center;
+    color:black;
+    position:relative;
+    transition-duration: 0.3s;
+}           
+nav li:hover{
+    color:black;
     background-color: #E8E8EA;
-}
-
-nav li ul {
-    display: none;
+}          
+nav li ul{
+    display:none;
     transition: 0.3s;
 }
-
-nav li:hover>ul {
+nav li:hover>ul{
     background-color: white;
-    display: block;
-    position: absolute;
-    top: 3.5em;
+    display:block;
+    position:absolute;
+    top:3.5em;
     left: 1em;
-    box-shadow: 0px 2px 9px -1px #575757;
-    -moz-box-shadow: 0px 2px 9px -1px #575757;
-    -webkit-box-shadow: 0px 2px 9px -1px #575757;
+    box-shadow:0px 2px 9px -1px #575757;
+    -moz-box-shadow:0px 2px 9px -1px #575757;
+    -webkit-box-shadow:0px 2px 9px -1px #575757;
 }
